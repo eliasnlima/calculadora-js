@@ -1,0 +1,62 @@
+body {
+    background: rgb(12,101,116);
+    
+
+}
+
+
+
+
+#display {
+    width: 280px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#calculadora {
+    background-color: whitesmoke;
+    border-radius: 24px;
+    padding: 16px;
+    padding-bottom: 120px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5), inset -5px -10px 20px rgba(0, 0, 0, 0.5);
+    margin-left: 4px;
+    
+}
+.button {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    box-shadow: inset -1px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.op {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: inset -1px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.num {
+    margin-left: 8px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Cursive;
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
